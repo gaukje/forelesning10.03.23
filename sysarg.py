@@ -31,3 +31,6 @@ print("your number is: ", args.num1)
 print("your 2nd number is: ", args.num2)
 
 parser.add_argument('-s', '--server', action='store_true')
+
+if args.server:
+    print(' the server is on', args.server)
